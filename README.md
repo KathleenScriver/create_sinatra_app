@@ -46,3 +46,9 @@
   ```
 
 5. Create Models and Views and start building!
+  - To connect views to controller, in `application_controller.rb`:
+    ```
+    configure do
+    	set :views, "app/views"
+    end
+    ```
