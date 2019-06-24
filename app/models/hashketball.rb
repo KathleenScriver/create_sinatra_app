@@ -1,4 +1,7 @@
 class Hashketball
+  def initialize
+  end
+
   def get_all_info
     {
       team: "team 1",

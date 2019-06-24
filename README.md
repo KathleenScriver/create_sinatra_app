@@ -40,7 +40,12 @@
   ```
   class ApplicationController < Sinatra::Base
         get '/' do
-          "Hello World"
+          # create instance of a Model
+          # call methods on Model or instance
+          # do we need to pass any info to the view?
+          # @instance_variable to pass to view
+          # tell route to render the named view in erb with:
+          # erb :index
         end
   end
   ```
@@ -52,3 +57,4 @@
     	set :views, "app/views"
     end
     ```
+    - Use `erb` in views to display information
